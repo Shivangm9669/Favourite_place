@@ -26,7 +26,10 @@ class HomePage extends ConsumerWidget {
           style: Theme.of(context).textTheme.titleLarge,
         ),
       ),
-      body: PlaceList(places: userPlaces),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: PlaceList(places: userPlaces),
+      ),
     );
   }
 }

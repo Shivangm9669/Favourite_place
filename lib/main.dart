@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+
 import 'package:favourite_place/screens/landing_page.dart';
 
 void main() {
